@@ -108,8 +108,7 @@
 			"debase"
 		],
 		"other": {
-			"git": {},
-			"rvm": null
+			"git": {}
 		},
 		"languages": {
 			"Ruby": {
