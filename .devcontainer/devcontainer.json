@@ -1,7 +1,10 @@
 {
     "build": {
         "dockerfile": "./Dockerfile",
-        "context": "."
+        "context": ".",
+        "args": {
+            "VARIANT": "3.2-bookworm"
+        }
     },
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
@@ -17,5 +20,5 @@
         }
     },
     // Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-    "remoteUser": "vscode"
+    "remoteUser": "root"
 }
